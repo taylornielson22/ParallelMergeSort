@@ -10,7 +10,9 @@ public class MergeSort {
 		boolean parallel = args.length !=1 ? true : false;;
 		int numElements = Integer.parseInt(args[0]);
 
-		int list[] = helper.createList(numElements);		long startTime = System.nanoTime();
+		int list[] = helper.createList(numElements);
+		
+		long startTime = System.nanoTime();
 		
 		MergeSort sorter = new MergeSort();
 
